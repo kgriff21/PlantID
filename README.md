@@ -22,21 +22,18 @@ The images for the five genera are sourced from a Kaggle repository: [Plant Spec
 
 ## Project Structure
 ```
-.
-├── models
-│   └── saved_model_freeze.keras
-├── test_images
-│   ├── alocasia_polly.jpeg
-│   ├── anthurium_ihor.jpg
-│   ├── calathea.jpg
-│   ├── mon_adan.jpeg
-│   ├── mon_var.jpeg
-│   ├── monstera_minimia_petra.JPG
-│   └── pothos_.jpeg
+PlantID-Project/
+├── .idea/
+│   ├── inspectionProfiles/
+│   ├── .gitignore
+│   ├── PlantID model.iml
+│   ├── misc.xml
+│   ├── modules.xml
+│   └── vcs.xml
+├── test_images/
 ├── README.md
 ├── main.ipynb
 └── streamlit.py
-
 ```
 
 ## Steps Involved
