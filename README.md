@@ -1,4 +1,4 @@
-# Plant Genera Classification using Deep Learning
+# 🪴 Plant Genera Classification using Deep Learning
 
 ## Overview
 This project focuses on classifying five different genera of plants using deep learning. The model currently identifies species from the following genera:
