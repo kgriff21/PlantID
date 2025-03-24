@@ -67,6 +67,9 @@ To train the model, run:
 ```bash
 python main.ipynb
 ```
+### Compute Resources
+- Model training and evaluation were performed remotely using an NVIDIA RTX 4090 GPU on a home workstation. This enabled efficient fine-tuning of large image classification models such as EfficientNetV2L, which would have been prohibitively slow on less powerful hardware.
+
 
 ## Dependencies
 - Python 3.8+
