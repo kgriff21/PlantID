@@ -65,27 +65,7 @@ PlantID-Project/
 ### Running the Training Script
 To train the model, run:
 ```bash
-python train_model.py
-```
-
-### Inference
-To classify new plant images, use:
-```python
-from tensorflow.keras.models import load_model
-import cv2
-import numpy as np
-
-model = load_model("models/saved_model.keras")
-
-def classify_image(image_path):
-    image = cv2.imread(image_path)
-    image = cv2.resize(image, (256, 256))
-    image = np.expand_dims(image, axis=0) / 255.0  # Normalize
-    prediction = model.predict(image)
-    class_label = np.argmax(prediction)
-    return class_label
-
-print(classify_image("path_to_image.jpg"))
+python main.ipynb
 ```
 
 ## Dependencies
