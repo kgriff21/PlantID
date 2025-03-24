@@ -79,7 +79,7 @@ python main.ipynb
 
 Install required dependencies using:
 ```bash
-pip install tensorflow numpy pandas matplotlib seaborn opencv-python pillow
+pip install tensorflow numpy pandas matplotlib seaborn opencv-python pillow scikit-learn imagehash python-dotenv
 ```
 
 ## Next Steps
